@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Pratap Singh - Full Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Locomotive Scroll CSS (minimal, CDN) -->
+    <link rel="stylesheet" href="https://unpkg.com/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <meta name="description" content="Abhay Pratap Singh - Full Stack Web Developer specializing in scalable web applications with modern technologies">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <!-- Wrap page content in locomotive scroll container -->
+    <div data-scroll-container id="scroll-container">
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Abhay Pratap Singh</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-greeting">Hello, I'm</h1>
+                <h2 class="hero-name" id="typing-name">Abhay Pratap Singh</h2>
+                <h3 class="hero-title">Full Stack Web Developer</h3>
+                <p class="hero-description">Building scalable web applications with modern technologies</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line"><span class="keyword">const</span> <span class="variable">developer</span> = {</div>
+                        <div class="code-line">  <span class="property">name</span>: <span class="string">'Abhay Pratap Singh'</span>,</div>
+                        <div class="code-line">  <span class="property">role</span>: <span class="string">'Full Stack Developer'</span>,</div>
+                        <div class="code-line">  <span class="property">skills</span>: [<span class="string">'React'</span>, <span class="string">'Node.js'</span>],</div>
+                        <div class="code-line">};</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my journey and passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-placeholder" >
+                        <img src="assests/WhatsApp Image 2025-10-16 at 11.34.54_5e07dbed.jpg" alt="Description of the image" height="420">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        Passionate Full Stack Developer with 2+ years of experience in designing and developing responsive web applications. I specialize in JavaScript technologies and enjoy solving complex problems with elegant solutions. My focus is on writing clean, maintainable code and delivering exceptional user experiences.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🚀</div>
+                            <div class="highlight-text">
+                                <h4>Performance Focused</h4>
+                                <p>Optimizing applications for speed and efficiency</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎯</div>
+                            <div class="highlight-text">
+                                <h4>Detail Oriented</h4>
+                                <p>Crafting pixel-perfect user interfaces</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🤝</div>
+                            <div class="highlight-text">
+                                <h4>Team Player</h4>
+                                <p>Collaborating effectively in agile environments</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.dropbox.com/scl/fi/rlbqjd8zl8oioq5vqx88q/Resume-4.2.pdf?rlkey=l5pcwctf4nkrqeyx4p2fczdal&st=wysorqys&dl=0" class="btn btn-outline" target="_blank">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card" data-skill="HTML5 &amp; CSS3">
+                            <div class="skill-icon">🌐</div>
+                            <span class="skill-name">HTML5 &amp; CSS3</span>
+                        </div>
+                        <div class="skill-card" data-skill="JavaScript">
+                            <div class="skill-icon">⚡</div>
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                        </div>
+                        <div class="skill-card" data-skill="React">
+                            <div class="skill-icon">⚛️</div>
+                            <span class="skill-name">React.js</span>
+                        </div>
+                        <div class="skill-card" data-skill="Next.js">
+                            <div class="skill-icon">🔺</div>
+                            <span class="skill-name">Next.js</span>
+                        </div>
+                        <div class="skill-card" data-skill="TypeScript">
+                            <div class="skill-icon">📘</div>
+                            <span class="skill-name">TypeScript</span>
+                        </div>
+                        <div class="skill-card" data-skill="Tailwind">
+                            <div class="skill-icon">🎨</div>
+                            <span class="skill-name">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card" data-skill="Node.js">
+                            <div class="skill-icon">🟢</div>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skill-card" data-skill="Express">
+                            <div class="skill-icon">🚂</div>
+                            <span class="skill-name">Express.js</span>
+                        </div>
+                        <div class="skill-card" data-skill="Python">
+                            <div class="skill-icon">🐍</div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-card" data-skill="Django">
+                            <div class="skill-icon">🎸</div>
+                            <span class="skill-name">Django</span>
+                        </div>
+                        <div class="skill-card" data-skill="APIs">
+                            <div class="skill-icon">🔗</div>
+                            <span class="skill-name">RESTful APIs</span>
+                        </div>
+                        <!-- <div class="skill-card" data-skill="GraphQL">
+                            <div class="skill-icon">📊</div>
+                            <span class="skill-name">GraphQL</span>
+                        </div> -->
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Database</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card" data-skill="MongoDB">
+                            <div class="skill-icon">🍃</div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        
+                        <div class="skill-card" data-skill="MySQL">
+                            <div class="skill-icon">🐬</div>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Tools &amp; Others</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card" data-skill="Git">
+                            <div class="skill-icon">🔧</div>
+                            <span class="skill-name">Git &amp; GitHub</span>
+                        </div>
+                        <!-- <div class="skill-card" data-skill="Docker">
+                            <div class="skill-icon">🐳</div>
+                            <span class="skill-name">Docker</span>
+                        </div> -->
+                        <!-- <div class="skill-card" data-skill="AWS">
+                            <div class="skill-icon">☁️</div>
+                            <span class="skill-name">AWS</span>
+                        </div> -->
+                        <div class="skill-card" data-skill="VS Code">
+                            <div class="skill-icon">💻</div>
+                            <span class="skill-name">VS Code</span>
+                        </div>
+                        <div class="skill-card" data-skill="Postman">
+                            <div class="skill-icon">📮</div>
+                            <span class="skill-name">Postman</span>
+                        </div>
+                        <div class="skill-card" data-skill="Figma">
+                            <div class="skill-icon">🎨</div>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">📋</div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://astonishing-beijinho-11f114.netlify.app/" class="project-link" target="_blank">View Demo</a>
+                                <a href="https://github.com/AbhayPratap01/sankalan-docs-query.git" class="project-link" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Offline RAG Document Chatbot</h3>
+                        <p class="project-description">An intelligent offline RAG (Retrieval-Augmented Generation) system that allows users to upload multiple PDFs or documents and query them through a chatbot.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                            <span class="tech-tag">Vector Database</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">OpenAI API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">✨</div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://imagify-client-zdxj.onrender.com/" class="project-link" target="_blank">View Demo</a>
+                                <a href="https://github.com/AbhayPratap01/IMAGIFY.git" class="project-link" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Imagify — AI Image Generator</h3>
+                        <p class="project-description">A web-based AI image generator that converts text prompts into high-quality visuals using modern generative models.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">🌳</div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://ai-family-tree.streamlit.app/" class="project-link" target="_blank">View Demo</a>
+                                <a href="https://github.com/AbhayPratap01/ai-family-tree.git" class="project-link" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Family Tree Builder</h3>
+                        <p class="project-description">An intelligent interactive family tree generator powered by a locally running TinyLlama model.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TinyLlama</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Ollama</span>
+                            <span class="tech-tag">NetworkX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <div class="project-icon">🛏️</div>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://pg-life-abhay.netlify.app/" class="project-link" target="_blank">View Demo</a>
+                                <a href="https://github.com/AbhayPratap01/PG-Life.git" class="project-link" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PG Life</h3>
+                        <p class="project-description">A demo web application that helps students find and compare PG accommodations easily based on their preferences and convenience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Full Stack Developer</h3>
+                            <div class="job-meta">
+                                <span class="company">Just Link</span>
+                                <span class="duration">July 2025 - Present</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Developing and maintaining production web applications using React and Node.js</li>
+                            <li>Deploying RESTful APIs efficiently to enhance functionality and reduce API response time by 30%</li>
+                            <li>Collaborated with cross-functional teams to deliver features on time and within budget</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Backend Developer</h3>
+                            <div class="job-meta">
+                                <span class="company">Smart India Hackathon</span>
+                                <span class="duration">September 2025 - present</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Built responsive user interfaces using React and modern CSS frameworks</li>
+                            <li>Optimized application performance reducing load time by 35%</li>
+                            <li>Mentored junior developers and conducted code reviews</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Web Developer</h3>
+                            <div class="job-meta">
+                                <span class="company">Labmentix</span>
+                                <span class="duration">February 2025 - April 2025</span>
+                            </div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Assisted in development of client websites using HTML, CSS, and JavaScript</li>
+                            <li>Fixed bugs and implemented new features based on client feedback</li>
+                            <li>Learned best practices for version control and agile development</li>
+                            <li> Reduced application load time by 30% and improved scalability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="abhayyt9953@gmail.com">abhayyt9953@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/AbhayPratap01" target="_blank" class="social-link" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/abhay-pratap-singh27/" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Abhay Pratap Singh. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Back to Top</a>
+                    <div class="footer-social">
+                        <a href="https://github.com/AbhayPratap01" target="_blank" class="social-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abhay-pratap-singh27/" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div><!-- end data-scroll-container -->
+
+    <!-- Locomotive Scroll JS (CDN) -->
+    <script src="https://unpkg.com/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
