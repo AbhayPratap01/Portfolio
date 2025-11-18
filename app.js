@@ -225,7 +225,7 @@ function initContactForm() {
         const message = formData.get('message');
         
         // Simple validation
-        if (!name || !email || !message) {
+        if (!email || !message) {
             showNotification('Please fill in all fields', 'error');
             return;
         }
